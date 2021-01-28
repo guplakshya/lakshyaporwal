@@ -15,7 +15,7 @@ function Description(props) {
           </figure>
           <div className="description_item_text">{props.text}</div>
           <div className="description_link">
-            <a href={props.link}>Project Link</a>
+            <a href={props.link} target="_blank" rel="noreferrer noopener">Project Link</a>
           </div>
         </div>
       </div>
