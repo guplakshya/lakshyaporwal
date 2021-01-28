@@ -6,8 +6,7 @@ import './Section.css';
 function Section() {
   return (
     <div className='container'>
-      {/*<img src='assets/background.jpg' alt='background'></img>*/}
-      <video src='assets/backgroundvid.mp4' autoPlay loop muted playsInline/>
+      <video src='assets/backgroundvid.mp4' autoPlay loop muted playsInline poster="assets/backimg.jpg"/>
       <h1>LAKSHYA PORWAL</h1>
       <p>Electronics and Instrumentation</p>
       <p>Web Developer</p>
