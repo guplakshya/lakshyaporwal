@@ -104,4 +104,7 @@
   .contact .contact-content .right{
     padding-top: 20px;
   }
+  .contact .title::after{
+    font-size: 16px;
+  }
 }
