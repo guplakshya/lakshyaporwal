@@ -22,7 +22,7 @@
 .common .title{
   position: relative;
   text-align: center;
-  color: #fff;
+  color: crimson;
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 70px;
@@ -50,7 +50,7 @@
   transform: translateX(-50%);
 }
 .contact .title::after{
-  content: "get in touch";
+  content: "";
 }
 
 /*Contact*/

@@ -1,5 +1,5 @@
 import React from "react";
-import '../../App.css'
+import "../../App.css";
 
 export default function About() {
   return (
@@ -10,12 +10,10 @@ export default function About() {
             <h2 className="title">About me</h2>
             <div className="about-content">
               <div className="column left">
-                <img src="assets/profile.jpg" alt="im"></img>
+                <img src="assets/profile.jpg" alt="profile"></img>
               </div>
               <div className="column right">
-                <div className="text">
-                  I'm Lakshya Porwal
-                </div>
+                <div className="text">I'm Lakshya Porwal</div>
                 <p>
                   I am a hardworking engineering undergraduate currently
                   specializing in electronics and instrumentation engineering in
@@ -32,6 +30,51 @@ export default function About() {
                   My hobbies are sketching, reading, travelling and I am a
                   guitar player.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="common">
+        <div className="education">
+          <div className="max-width">
+            <h2 className="title">Education</h2>
+            <div className="education-content">
+              <div className="column right">
+                <h3>July 2017 - Present </h3>
+              </div>
+              <div className="column left">
+                <h2>Vellore Institute of Technology</h2>
+                <h3>Bachelor of Technology</h3>
+                <div>Electronics and Instrumentation Engineering</div>
+                <div>
+                  Score:<span className="score"> 9.12 CGPA</span>
+                </div>
+              </div>
+              <br />
+              <div className="column right">
+                <h3>June 2016 - May 2017 </h3>
+              </div>
+              <div className="column left">
+                <h2>M.R Scindia Higher Secondary School</h2>
+                <h3>Higher Secondary Certificate</h3>
+                <div>Mathematics</div>
+                <div>
+                  Score:<span className="score"> 90.6 %</span>
+                </div>
+              </div>
+              <br />
+              <div className="column right">
+                <h3>June 2014 - May 2015 </h3>
+              </div>
+              <div className="column left">
+                <h2>Kendriya Vidyalaya Sangathan</h2>
+                <h3>Secondary School Certificate</h3>
+                <div>Science and Mathematics</div>
+                <div>
+                  Score:<span className="score"> 9.8 CGPA</span>
+                </div>
               </div>
             </div>
           </div>
@@ -126,51 +169,6 @@ export default function About() {
       </div>
 
       <div className="common">
-        <div className="education">
-          <div className="max-width">
-            <h2 className="title">Education</h2>
-            <div className="education-content">
-              <div className="column right">
-                <h3>July 2017 - Present </h3>
-              </div>
-              <div className="column left">
-                <h2>Vellore Institute of Technology</h2>
-                <h3>Bachelor of Technology</h3>
-                <div>Electronics and Instrumentation Engineering</div>
-                <div>
-                  Score:<span className="score"> 9.12 CGPA</span>
-                </div>
-              </div>
-              <br />
-              <div className="column right">
-                <h3>June 2016 - May 2017 </h3>
-              </div>
-              <div className="column left">
-                <h2>M.R Scindia Higher Secondary School</h2>
-                <h3>Higher Secondary Certificate</h3>
-                <div>Mathematics</div>
-                <div>
-                  Score:<span className="score"> 90.6 %</span>
-                </div>
-              </div>
-              <br />
-              <div className="column right">
-                <h3>June 2014 - May 2015 </h3>
-              </div>
-              <div className="column left">
-                <h2>Kendriya Vidyalaya Sangathan</h2>
-                <h3>Secondary School Certificate</h3>
-                <div>Science and Mathematics</div>
-                <div>
-                  Score:<span className="score"> 9.8 CGPA</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="common">
         <div className="achievements">
           <div className="max-width">
             <h2 className="title">Achievements</h2>
@@ -216,62 +214,62 @@ export default function About() {
           <div className="max-width">
             <h2 className="title">Certifications</h2>
             <div className="certification-content">
-              <ul className="fa-ul">
-                <li>
-                  <span className="fa-li">
-                    <i className="fas fa-certificate"></i>
-                  </span>
-                  HTML and CSS - Build a Website
-                </li>
-                <li>
-                  <span className="fa-li">
-                    <i className="fas fa-certificate"></i>
-                  </span>
-                  AWS Fundamentals: Going Cloud Native
-                </li>
-                <li>
-                  <span className="fa-li">
-                    <i className="fas fa-certificate"></i>
-                  </span>
-                  Carrer Edge Knockdown the Lockdown
-                </li>
-                <li>
-                  <span className="fa-li">
-                    <i className="fas fa-certificate"></i>
-                  </span>
-                  Machine Learning
-                </li>
-                <li>
-                  <span className="fa-li">
-                    <i className="fas fa-certificate"></i>
-                  </span>
-                  Deep Learning and Neural Networks
-                </li>
-                <li>
-                  <span className="fa-li">
-                    <i className="fas fa-certificate"></i>
-                  </span>
-                  Electronics
-                </li>
-                <li>
-                  <span className="fa-li">
-                    <i className="fas fa-certificate"></i>
-                  </span>
-                  Digital Signal Processing
-                </li>
-                <li>
-                  <span className="fa-li">
-                    <i className="fas fa-certificate"></i>
-                  </span>
-                  LabVIEW Core
-                </li>
-                <li>
-                  <span className="fa-li">
-                    <i className="fas fa-certificate"></i>
-                  </span>
-                  Intelligent Machining
-                </li>
-              </ul>
+                <ul className="fa-ul">
+                  <li>
+                    <span className="fa-li">
+                      <i className="fas fa-certificate"></i>
+                    </span>
+                    HTML and CSS - Build a Website
+                  </li>
+                  <li>
+                    <span className="fa-li">
+                      <i className="fas fa-certificate"></i>
+                    </span>
+                    AWS Fundamentals: Going Cloud Native
+                  </li>
+                  <li>
+                    <span className="fa-li">
+                      <i className="fas fa-certificate"></i>
+                    </span>
+                    Carrer Edge Knockdown the Lockdown
+                  </li>
+                  <li>
+                    <span className="fa-li">
+                      <i className="fas fa-certificate"></i>
+                    </span>
+                    Machine Learning
+                  </li>
+                  <li>
+                    <span className="fa-li">
+                      <i className="fas fa-certificate"></i>
+                    </span>
+                    Deep Learning and Neural Networks
+                  </li>
+                  <li>
+                    <span className="fa-li">
+                      <i className="fas fa-certificate"></i>
+                    </span>
+                    Electronics
+                  </li>
+                  <li>
+                    <span className="fa-li">
+                      <i className="fas fa-certificate"></i>
+                    </span>
+                    Digital Signal Processing
+                  </li>
+                  <li>
+                    <span className="fa-li">
+                      <i className="fas fa-certificate"></i>
+                    </span>
+                    LabVIEW Core
+                  </li>
+                  <li>
+                    <span className="fa-li">
+                      <i className="fas fa-certificate"></i>
+                    </span>
+                    Intelligent Machining
+                  </li>
+                </ul>
             </div>
           </div>
         </div>

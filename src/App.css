@@ -41,7 +41,7 @@ html{
 .common .title{
   position: relative;
   text-align: center;
-  color: #fff;
+  color: crimson;
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 70px;
@@ -71,12 +71,13 @@ html{
 
 /*About*/
 .about .title::after{
-  content: "who i am";
+  content: "";
 }
 .about .about-content .column{
   width: calc(50% - 30px);
 }
-.about .about-content .left img{
+
+.about .about-content .left img {
   height: 450px;
   width: 400px;
   object-fit: contain;
@@ -95,7 +96,7 @@ html{
 }
 /*Skills*/
 .skills .title::after{
-  content: "i know";
+  content: "";
 }
 .skills .skills-content .column{
   width: calc(50% - 30px);
@@ -171,7 +172,7 @@ html{
 
 /*Education*/
 .education .title::after{
-  content: "i learned";
+  content: "";
 }
 .education-content{
   color: #fff;
@@ -193,21 +194,21 @@ html{
 
 /*Achievements*/
 .achievements .title::after{
-  content: "i got";
+  content: "";
 }
 .achievement-content{
   color: #fff;
 }
 /*Cerifications*/
 .certification .title::after{
-  content: "i received";
+  content: "";
 }
 .certification-content{
   color: #fff;
 }
 /*Projects*/
 .project .title::after{
-  content: "what i did";
+  content: "";
 }
 
 /*Mobile Responsive*/
